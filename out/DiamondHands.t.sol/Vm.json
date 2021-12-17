@@ -1,0 +1,20 @@
+{
+  "abi": [
+    {
+      "type": "function",
+      "name": "warp",
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "outputs": [],
+      "constant": false,
+      "stateMutability": "nonpayable"
+    }
+  ],
+  "bin": "0x",
+  "bin-runtime": "0x"
+}

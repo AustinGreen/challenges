@@ -1,0 +1,77 @@
+{
+  "_format": "ethers-rs-sol-cache-1",
+  "files": {
+    "/Users/austin/Projects/defi/challenges/src/DiamondHands.sol": {
+      "lastModificationDate": 1639709117377,
+      "contentHash": "5b856812500b9dd891c53e4b218785bd",
+      "sourceName": "src/DiamondHands.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "DiamondHands"
+      ]
+    },
+    "/Users/austin/Projects/defi/challenges/src/test/DiamondHands.t.sol": {
+      "lastModificationDate": 1639709465299,
+      "contentHash": "8936cd86302e8a02bc2a07b87c8fee61",
+      "sourceName": "src/test/DiamondHands.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "ds-test/test.sol",
+        "../DiamondHands.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "DiamondHandsTest",
+        "Vm"
+      ]
+    }
+  }
+}
